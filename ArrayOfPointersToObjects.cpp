@@ -22,9 +22,9 @@ int main(){
 
 Student* students[3];
 
-students[0] = new Student("Ann", 23);
-students[1] = new Student("Charu", 35);
-students[2] = new Student("Amit", 43);
+students[0] = new Student("Andy", 23);
+students[1] = new Student("Mark", 35);
+students[2] = new Student("Vince", 43);
 
 cout<<"Now displaying Students info:-\n"<<endl;
 
@@ -34,3 +34,4 @@ for(int i = 0; i<3; i++){
 
 return 0;
 }
+
